@@ -5,6 +5,7 @@ def square_array(array)
   # array.each { |e| squared_array << e ** 2 }
   # squared_array
 
-  result = array.collect { |e| e ** 2 }
-  result
+  # result = 
+  array.collect { |e| e ** 2 }
+  # result
 end
