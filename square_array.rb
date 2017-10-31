@@ -1,8 +1,9 @@
 def square_array(array)
   # your code here
   # array.collect { |e| e * e }
-  result = array.each do |e|
-    e ** 2
+  squared_array = []
+  array.each do |e|
+    squared_array << e ** 2
   end
-  result
+  squared_array
 end
